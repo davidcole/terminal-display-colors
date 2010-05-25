@@ -1,4 +1,4 @@
-require 'lib/terminal_display_colors'
+require 'lib/terminal-display-colors'
 include TerminalDispayColors
 
 puts 'gray'.gray
@@ -9,7 +9,6 @@ puts 'blue'.blue
 puts 'purple'.purple
 puts 'cyan'.cyan
 puts 'white'.white
-
 
 puts 'bold'.bold
 puts 'bold red'.bold.red

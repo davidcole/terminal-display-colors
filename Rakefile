@@ -2,12 +2,12 @@ require 'rubygems'
 gem 'hoe', '>= 2.1.0'
 require 'hoe'
 require 'fileutils'
-require './lib/terminal_display_colors'
+require './lib/terminal-display-colors'
 
 Hoe.plugin :newgem
 
 # Generate the Rake tasks
-$hoe = Hoe.spec 'terminal_display_colors' do
+$hoe = Hoe.spec 'terminal-display-colors' do
   self.developer 'David Cole', 'davidcole@davidcole.net'
   self.post_install_message = 'PostInstall.txt'
   #self.rubyforge_name       = 'display-colors'

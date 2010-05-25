@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.email = ["davidcole@davidcole.net"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
-  s.files = ["demo.rb", "History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/terminal_display_colors.rb", "test/test_helper.rb", "test/test_terminal_display_colors.rb"]
+  s.files = ["demo.rb", "History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/terminal-display-colors.rb", "test/test_helper.rb", "test/test_terminal-display-colors.rb"]
   s.homepage = %q{http://github.com/davidcole/terminal-display-colors}
   s.post_install_message = %q{PostInstall.txt}
   s.rdoc_options = ["--main", "README.rdoc"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   #s.rubyforge_project = %q{display-colors}
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Adds color methods to String for easily adding color to terminal output.}
-  s.test_files = ["test/test_helper.rb", "test/test_terminal_display_colors.rb"]
+  s.test_files = ["test/test_helper.rb", "test/test_terminal-display-colors.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

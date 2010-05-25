@@ -4,6 +4,6 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
-lib/terminal_display_colors.rb
+lib/terminal-display-colors.rb
 test/test_helper.rb
-test/test_terminal_display_colors.rb
+test/test_terminal-display-colors.rb
