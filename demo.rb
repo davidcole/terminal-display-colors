@@ -1,5 +1,5 @@
-require 'lib/terminal-display-colors'
-include TerminalDispayColors
+require( 'rubygems' )
+require( 'terminal-display-colors' )
 
 puts 'gray'.gray
 puts 'red'.red
