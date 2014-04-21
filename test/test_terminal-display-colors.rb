@@ -20,14 +20,14 @@ class TestTerminalDispayColors < Test::Unit::TestCase
       'cyan'    => "\e[36m",
       'gray'    => "\e[37m",
 
-      'dark_gray'       => "\033[90m",
-      'bright_red'      => "\033[91m",
-      'bright_green'    => "\033[92m",
-      'bright_yellow'   => "\033[93m",
-      'bright_blue'     => "\033[94m",
-      'bright_magenta'  => "\033[95m",
-      'bright_cyan'     => "\033[96m",
-      'white'           => "\033[97m",
+      'dark_gray'       => "\e[90m",
+      'bright_red'      => "\e[91m",
+      'bright_green'    => "\e[92m",
+      'bright_yellow'   => "\e[93m",
+      'bright_blue'     => "\e[94m",
+      'bright_magenta'  => "\e[95m",
+      'bright_cyan'     => "\e[96m",
+      'white'           => "\e[97m",
     }
     @backgrounds = {
       'black_background'    => "\e[40m",
@@ -37,7 +37,7 @@ class TestTerminalDispayColors < Test::Unit::TestCase
       'blue_background'     => "\e[44m",
       'magenta_background'  => "\e[45m",
       'cyan_background'     => "\e[46m",
-      'white_background'    => "\e[47m",
+      'gray_background'    => "\e[47m",
 
       'dark_gray_background'      => "\e[100m",
       'bright_red_background'     => "\e[101m",
