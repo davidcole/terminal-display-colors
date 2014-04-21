@@ -9,7 +9,6 @@ Adds color methods to String for easily adding color to terminal output.
 == FEATURES/PROBLEMS:
 
 * Displays strings as colored output.
-* Displays strings as bold.
 
 == SYNOPSIS:
 
@@ -19,8 +18,6 @@ Adds color methods to String for easily adding color to terminal output.
   puts 'red'.red
   puts 'green'.green
   puts 'blue'.blue
-  
-  puts 'bold yellow'.yellow.bold
   
 == REQUIREMENTS:
 
