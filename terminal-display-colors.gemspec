@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.files       = [ 'demo.rb', 'README.rdoc', 'Rakefile', 'lib/terminal-display-colors.rb' ]
   s.homepage    = 'http://github.com/davidcole/terminal-display-colors'
   s.summary     = 'Adds color methods to String for easily adding color to terminal output.'
-  s.test_files  = [ 'test/test_terminal-display-colors.rb' ]
+  s.test_files  = [ 'test/test_named_colors.rb', 'test/test_hex_colors.rb' ]
   s.license     = 'MIT'
 end

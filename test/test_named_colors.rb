@@ -5,9 +5,7 @@ $:.unshift File.join( File.dirname( __FILE__ ), '..', 'lib' )
 require 'test/unit'
 require 'terminal-display-colors'
 
-class TestTerminalDispayColors < Test::Unit::TestCase
-
-  include TerminalDispayColors
+class TestNamedColors < Test::Unit::TestCase
 
   def setup
     @colors = {
@@ -51,19 +49,19 @@ class TestTerminalDispayColors < Test::Unit::TestCase
     @ending  = "\e[00m"
   end
   
-  def test_colors
+  def test_named_colors
     @colors.each do |color, code|
       assert_equal( "#{ code }Testing #{ color } text.#{ @ending }", "Testing #{ color } text.".send( color ) )
     end
   end
   
-  def test_backgrounds
+  def test_named_backgrounds
     @backgrounds.each do |background, code|
       assert_equal( "#{ code }Testing #{ background } background.#{ @ending }", "Testing #{ background } background.".send( background ) )
     end
   end
   
-  def test_colors_and_backgrounds
+  def test_named_colors_and_backgrounds
     @colors.each do |color, color_code|
       @backgrounds.each do |background, background_code|
         assert_equal( "#{ color_code }#{ background_code }Testing #{ color } text with #{ background } background.#{ @ending }#{ @ending }", "Testing #{ color } text with #{ background } background.".send( background ).send( color ) )
