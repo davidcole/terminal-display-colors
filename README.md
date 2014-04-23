@@ -6,7 +6,7 @@ http://github.com/davidcole/terminal-display-colors
 
 Adds color methods to String for easily adding color to terminal output.
 
-== FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS:
 
 * Displays strings as colored output.
 
