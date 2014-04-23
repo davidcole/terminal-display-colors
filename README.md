@@ -1,8 +1,8 @@
-= terminal-display-colors
+# terminal-display-colors
 
 http://github.com/davidcole/terminal-display-colors
 
-== DESCRIPTION:
+## DESCRIPTION:
 
 Adds color methods to String for easily adding color to terminal output.
 
@@ -10,23 +10,23 @@ Adds color methods to String for easily adding color to terminal output.
 
 * Displays strings as colored output.
 
-== SYNOPSIS:
+## SYNOPSIS:
 
-  require 'rubygems'
-  require 'terminal-display-colors'
+	require 'rubygems'
+	require 'terminal-display-colors'
 
-  puts 'red'.red
-  puts 'green'.green
-  puts 'blue'.blue
+	puts 'red'.red
+	puts 'green'.green
+	puts 'blue'.blue
   
-== REQUIREMENTS:
+## REQUIREMENTS:
 
 Ruby.
 
-== INSTALL:
+## INSTALL:
 
-  gem install terminal-display-colors
+	gem install terminal-display-colors
 
-== LICENSE:
+## LICENSE:
 
 terminal-display-colors is released under the [MIT License](http://www.opensource.org/licenses/MIT).
